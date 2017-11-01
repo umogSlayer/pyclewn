@@ -1,4 +1,3 @@
-syntax: glob
 *.pyc
 *.swp
 testsuite/foobar
@@ -11,8 +10,6 @@ logfile
 lib/clewn/runtime_version.py
 runtime/autoload/pyclewn/version.vim
 
-syntax: regexp
-^sphinx/_build/.*$
-^lib/pyclewn.egg-info/.*$
-^lib/clewn/runtime/pyclewn-.*.vmb$
-
+sphinx/_build/
+lib/pyclewn.egg-info/
+lib/clewn/runtime/pyclewn-.*.vmb
